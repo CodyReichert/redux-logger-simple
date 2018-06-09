@@ -3,17 +3,19 @@
 A (simple) Redux middleware to log actions and state to the console
 when actions are dispatched.
 
+![redux-logger-simple screenshot](docs/screenshot.png?raw=true "redux-logger-simple screenshot")
+
 ## Installation
 
 **Install package**
 
 ```
-npm i redux-logger-simple
+$ npm i redux-logger-simple
 ```
 
 **Add middleware**
 
-```
+```js
 import logger from 'redux-logger-simple'
 
 // Add logger to `createStore` middlewares
