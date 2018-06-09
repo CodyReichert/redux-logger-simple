@@ -1,0 +1,27 @@
+{
+  "name": "redux-logger-simple",
+  "version": "0.0.1",
+  "description": "Simple logger middleware for Redux",
+  "repository": "CodyReichert/redux-logger-simple",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "babel src --out-dir build",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "logger",
+    "redux",
+    "simple",
+    "redux logger"
+  ],
+  "files": [
+    "build/"
+  ],
+  "author": "Cody Reichert <codyreichert@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.3",
+    "babel-preset-env": "1.7.0"
+  }
+}
